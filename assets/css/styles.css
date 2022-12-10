@@ -1,0 +1,150 @@
+body {
+    background-image: url(https://static.wikia.nocookie.net/pokemonsolarlightlunardark/images/a/ab/LocationRoute1.png/revision/latest?cb=20150606081940);
+}
+
+.trainer-info {
+    width: 80%;
+    background: rgba(180, 180, 180, 0.75);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.trainer-photo {
+    width: 150x;
+    height: 150px;
+}
+
+.attack-box {
+    display:grid;
+    grid-template-columns: 120px 120px;
+    grid-column-gap: 14px;
+    grid-row-gap: 8px;
+    grid-template-rows: auto auto;
+}
+
+.pokemon-team {
+    display:grid;
+    grid-template-columns: 250px 250px 250px;
+    column-gap: 10px;
+}
+
+.pokemon{
+    background-color: rgba(0,0,0,0.65);
+    width: 295px;
+    justify-items: center;
+    border-radius: 8px;
+}
+
+.pokemon:hover{
+    background-color: rgba(235, 156, 18, 0.65);
+}
+
+
+.row::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+
+p.pokemon-name {
+    font-family: "Lucida Console";
+    padding-top: 10px;
+    padding-bottom:0px;
+    color: rgba(241, 225, 233, 0.8);
+}
+
+
+.pokemon-type {
+    margin: 0 auto;
+}
+
+img.photo {
+    margin: 0;
+    width: 95x;
+    height: 95px;
+}
+
+figure.pokemon-figure {
+    margin:0;
+}
+
+figure.trainer-figure {
+    margin:0;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 10px;
+}
+
+h2 {
+    margin:0;
+}
+
+.attack {
+    border-radius: 5px;
+    border: 1.5px solid rgba(255, 255, 255, 0.75);
+    width: 124px;
+    justify-items: center;
+}
+
+.psy-type {
+    background-color: rgba(125, 7, 171);
+
+}
+
+.fight-type {
+    background-color: rgba(171, 60, 7);
+}
+
+.normal-type {
+    background-color: white;
+}
+
+.poison-type {
+    background-color: rgba(49, 2, 90, 0.8);
+}
+
+.bug-type {
+    background-color: rgba(115, 171, 7);
+}
+.attack-text {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 13px;
+    font-family: "Lucida Console";
+    
+}
+
+
+
+.attack-container {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    padding-bottom: 10px;
+}
+
+.pokemon-container {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    padding-bottom: 10px;
+}
+
+p.tittle-attacks {
+    margin-bottom:2px;
+    font-size: 18px;
+    font-family: 'Lucida Console';
+    color: rgba(241, 225, 233, 0.8);
+}
+
+.wiki-link{
+    text-decoration-line: none;
+    color: inherit;
+}
+
+
